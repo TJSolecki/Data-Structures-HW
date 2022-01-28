@@ -1,0 +1,25 @@
+Report for Student13
+You asked about the following topics in office hours each time you came:
+	1.) Stacks
+	2.) MAPS
+	3.) MAPS
+	4.) Heaps
+	5.) Queues
+	6.) Insertion Sort
+	7.) Quick Sort
+	8.) Quick Sort
+	9.) B-Trees
+	10.) Queues
+	11.) Heaps
+	12.) Heaps
+	13.) Quick Sort
+	14.) Stacks
+	15.) Trees
+	16.) Insertion Sort
+	17.) BSTs
+	18.) Queues
+	19.) MAPS
+	20.) BSTs
+	21.) B-Trees
+	22.) Red-Black Trees
+You came to office hours 22 time(s)

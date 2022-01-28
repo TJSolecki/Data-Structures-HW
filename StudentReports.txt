@@ -1,0 +1,760 @@
+Student1	B-Trees
+Student2	B-Trees
+Student2	B-Trees
+Student2	B-Trees
+Student2	B-Trees
+Student4	B-Trees
+Student5	B-Trees
+Student6	B-Trees
+Student6	B-Trees
+Student7	B-Trees
+Student7	B-Trees
+Student7	B-Trees
+Student8	B-Trees
+Student9	B-Trees
+Student9	B-Trees
+Student10	B-Trees
+Student10	B-Trees
+Student11	B-Trees
+Student12	B-Trees
+Student12	B-Trees
+Student12	B-Trees
+Student12	B-Trees
+Student13	B-Trees
+Student13	B-Trees
+Student14	B-Trees
+Student14	B-Trees
+Student15	B-Trees
+Student15	B-Trees
+Student17	B-Trees
+Student18	B-Trees
+Student18	B-Trees
+Student20	B-Trees
+Student20	B-Trees
+Student20	B-Trees
+Student20	B-Trees
+Student21	B-Trees
+Student21	B-Trees
+Student23	B-Trees
+Student23	B-Trees
+Student24	B-Trees
+Student24	B-Trees
+Student25	B-Trees
+Student25	B-Trees
+Student25	B-Trees
+Student26	B-Trees
+Student26	B-Trees
+Student26	B-Trees
+Student26	B-Trees
+Student27	B-Trees
+Student27	B-Trees
+Student27	B-Trees
+Student28	B-Trees
+Student28	B-Trees
+Student28	B-Trees
+Student29	B-Trees
+Student30	B-Trees
+Student30	B-Trees
+Student30	B-Trees
+Student31	B-Trees
+Student31	B-Trees
+Student31	B-Trees
+Student31	B-Trees
+Student32	B-Trees
+Student33	B-Trees
+Student33	B-Trees
+Student33	B-Trees
+Student35	B-Trees
+Student35	B-Trees
+Student36	B-Trees
+Student36	B-Trees
+Student37	B-Trees
+Student37	B-Trees
+Student37	B-Trees
+Student37	B-Trees
+Student37	B-Trees
+Student37	B-Trees
+Student38	B-Trees
+Student39	B-Trees
+Student1	BSTs
+Student2	BSTs
+Student3	BSTs
+Student3	BSTs
+Student4	BSTs
+Student4	BSTs
+Student5	BSTs
+Student6	BSTs
+Student7	BSTs
+Student7	BSTs
+Student8	BSTs
+Student8	BSTs
+Student8	BSTs
+Student9	BSTs
+Student9	BSTs
+Student10	BSTs
+Student11	BSTs
+Student11	BSTs
+Student11	BSTs
+Student12	BSTs
+Student13	BSTs
+Student13	BSTs
+Student14	BSTs
+Student14	BSTs
+Student15	BSTs
+Student15	BSTs
+Student17	BSTs
+Student17	BSTs
+Student17	BSTs
+Student18	BSTs
+Student18	BSTs
+Student18	BSTs
+Student20	BSTs
+Student20	BSTs
+Student20	BSTs
+Student21	BSTs
+Student21	BSTs
+Student21	BSTs
+Student21	BSTs
+Student21	BSTs
+Student23	BSTs
+Student24	BSTs
+Student25	BSTs
+Student25	BSTs
+Student27	BSTs
+Student28	BSTs
+Student28	BSTs
+Student29	BSTs
+Student29	BSTs
+Student29	BSTs
+Student30	BSTs
+Student30	BSTs
+Student31	BSTs
+Student32	BSTs
+Student32	BSTs
+Student32	BSTs
+Student32	BSTs
+Student32	BSTs
+Student32	BSTs
+Student32	BSTs
+Student33	BSTs
+Student33	BSTs
+Student33	BSTs
+Student34	BSTs
+Student34	BSTs
+Student35	BSTs
+Student35	BSTs
+Student35	BSTs
+Student36	BSTs
+Student36	BSTs
+Student36	BSTs
+Student37	BSTs
+Student37	BSTs
+Student38	BSTs
+Student39	BSTs
+Student39	BSTs
+Student1	Heaps
+Student1	Heaps
+Student1	Heaps
+Student1	Heaps
+Student1	Heaps
+Student1	Heaps
+Student2	Heaps
+Student2	Heaps
+Student4	Heaps
+Student4	Heaps
+Student5	Heaps
+Student5	Heaps
+Student5	Heaps
+Student5	Heaps
+Student6	Heaps
+Student6	Heaps
+Student6	Heaps
+Student7	Heaps
+Student8	Heaps
+Student9	Heaps
+Student9	Heaps
+Student9	Heaps
+Student10	Heaps
+Student10	Heaps
+Student11	Heaps
+Student11	Heaps
+Student11	Heaps
+Student11	Heaps
+Student11	Heaps
+Student13	Heaps
+Student13	Heaps
+Student13	Heaps
+Student14	Heaps
+Student14	Heaps
+Student16	Heaps
+Student16	Heaps
+Student17	Heaps
+Student17	Heaps
+Student18	Heaps
+Student19	Heaps
+Student19	Heaps
+Student19	Heaps
+Student20	Heaps
+Student20	Heaps
+Student20	Heaps
+Student21	Heaps
+Student21	Heaps
+Student21	Heaps
+Student22	Heaps
+Student22	Heaps
+Student22	Heaps
+Student22	Heaps
+Student23	Heaps
+Student23	Heaps
+Student23	Heaps
+Student24	Heaps
+Student24	Heaps
+Student24	Heaps
+Student25	Heaps
+Student25	Heaps
+Student27	Heaps
+Student27	Heaps
+Student28	Heaps
+Student29	Heaps
+Student30	Heaps
+Student31	Heaps
+Student31	Heaps
+Student32	Heaps
+Student32	Heaps
+Student33	Heaps
+Student34	Heaps
+Student35	Heaps
+Student36	Heaps
+Student38	Heaps
+Student38	Heaps
+Student40	Heaps
+Student40	Heaps
+Student40	Heaps
+Student1	Insertion Sort
+Student1	Insertion Sort
+Student1	Insertion Sort
+Student3	Insertion Sort
+Student4	Insertion Sort
+Student4	Insertion Sort
+Student5	Insertion Sort
+Student5	Insertion Sort
+Student5	Insertion Sort
+Student5	Insertion Sort
+Student7	Insertion Sort
+Student8	Insertion Sort
+Student9	Insertion Sort
+Student9	Insertion Sort
+Student9	Insertion Sort
+Student10	Insertion Sort
+Student10	Insertion Sort
+Student11	Insertion Sort
+Student11	Insertion Sort
+Student11	Insertion Sort
+Student11	Insertion Sort
+Student11	Insertion Sort
+Student12	Insertion Sort
+Student12	Insertion Sort
+Student13	Insertion Sort
+Student13	Insertion Sort
+Student14	Insertion Sort
+Student15	Insertion Sort
+Student15	Insertion Sort
+Student16	Insertion Sort
+Student16	Insertion Sort
+Student16	Insertion Sort
+Student16	Insertion Sort
+Student17	Insertion Sort
+Student17	Insertion Sort
+Student18	Insertion Sort
+Student18	Insertion Sort
+Student18	Insertion Sort
+Student21	Insertion Sort
+Student23	Insertion Sort
+Student24	Insertion Sort
+Student24	Insertion Sort
+Student24	Insertion Sort
+Student25	Insertion Sort
+Student25	Insertion Sort
+Student27	Insertion Sort
+Student27	Insertion Sort
+Student28	Insertion Sort
+Student29	Insertion Sort
+Student30	Insertion Sort
+Student30	Insertion Sort
+Student30	Insertion Sort
+Student31	Insertion Sort
+Student31	Insertion Sort
+Student32	Insertion Sort
+Student33	Insertion Sort
+Student33	Insertion Sort
+Student34	Insertion Sort
+Student34	Insertion Sort
+Student34	Insertion Sort
+Student35	Insertion Sort
+Student35	Insertion Sort
+Student35	Insertion Sort
+Student36	Insertion Sort
+Student38	Insertion Sort
+Student39	Insertion Sort
+Student40	Insertion Sort
+Student40	Insertion Sort
+Student40	Insertion Sort
+Student40	Insertion Sort
+Student1	MAPS
+Student2	MAPS
+Student2	MAPS
+Student2	MAPS
+Student2	MAPS
+Student3	MAPS
+Student3	MAPS
+Student4	MAPS
+Student4	MAPS
+Student5	MAPS
+Student6	MAPS
+Student7	MAPS
+Student8	MAPS
+Student8	MAPS
+Student9	MAPS
+Student9	MAPS
+Student9	MAPS
+Student10	MAPS
+Student10	MAPS
+Student10	MAPS
+Student10	MAPS
+Student11	MAPS
+Student12	MAPS
+Student13	MAPS
+Student13	MAPS
+Student13	MAPS
+Student14	MAPS
+Student15	MAPS
+Student16	MAPS
+Student16	MAPS
+Student16	MAPS
+Student16	MAPS
+Student17	MAPS
+Student17	MAPS
+Student18	MAPS
+Student18	MAPS
+Student18	MAPS
+Student19	MAPS
+Student20	MAPS
+Student21	MAPS
+Student21	MAPS
+Student21	MAPS
+Student22	MAPS
+Student24	MAPS
+Student24	MAPS
+Student25	MAPS
+Student25	MAPS
+Student26	MAPS
+Student26	MAPS
+Student27	MAPS
+Student28	MAPS
+Student29	MAPS
+Student30	MAPS
+Student30	MAPS
+Student31	MAPS
+Student32	MAPS
+Student33	MAPS
+Student33	MAPS
+Student36	MAPS
+Student36	MAPS
+Student36	MAPS
+Student37	MAPS
+Student38	MAPS
+Student38	MAPS
+Student38	MAPS
+Student38	MAPS
+Student40	MAPS
+Student40	MAPS
+Student2	Queues
+Student2	Queues
+Student2	Queues
+Student3	Queues
+Student3	Queues
+Student3	Queues
+Student4	Queues
+Student4	Queues
+Student5	Queues
+Student5	Queues
+Student5	Queues
+Student5	Queues
+Student6	Queues
+Student6	Queues
+Student6	Queues
+Student7	Queues
+Student8	Queues
+Student8	Queues
+Student9	Queues
+Student9	Queues
+Student9	Queues
+Student9	Queues
+Student9	Queues
+Student10	Queues
+Student11	Queues
+Student11	Queues
+Student12	Queues
+Student12	Queues
+Student13	Queues
+Student13	Queues
+Student13	Queues
+Student14	Queues
+Student14	Queues
+Student15	Queues
+Student17	Queues
+Student18	Queues
+Student19	Queues
+Student19	Queues
+Student19	Queues
+Student20	Queues
+Student20	Queues
+Student21	Queues
+Student21	Queues
+Student21	Queues
+Student23	Queues
+Student23	Queues
+Student23	Queues
+Student24	Queues
+Student27	Queues
+Student27	Queues
+Student28	Queues
+Student28	Queues
+Student30	Queues
+Student30	Queues
+Student30	Queues
+Student31	Queues
+Student31	Queues
+Student32	Queues
+Student32	Queues
+Student33	Queues
+Student33	Queues
+Student35	Queues
+Student35	Queues
+Student35	Queues
+Student35	Queues
+Student35	Queues
+Student36	Queues
+Student36	Queues
+Student39	Queues
+Student39	Queues
+Student39	Queues
+Student40	Queues
+Student40	Queues
+Student1	Quick Sort
+Student2	Quick Sort
+Student3	Quick Sort
+Student3	Quick Sort
+Student3	Quick Sort
+Student4	Quick Sort
+Student5	Quick Sort
+Student5	Quick Sort
+Student5	Quick Sort
+Student5	Quick Sort
+Student5	Quick Sort
+Student6	Quick Sort
+Student7	Quick Sort
+Student7	Quick Sort
+Student7	Quick Sort
+Student8	Quick Sort
+Student9	Quick Sort
+Student10	Quick Sort
+Student10	Quick Sort
+Student11	Quick Sort
+Student11	Quick Sort
+Student11	Quick Sort
+Student12	Quick Sort
+Student12	Quick Sort
+Student12	Quick Sort
+Student13	Quick Sort
+Student13	Quick Sort
+Student13	Quick Sort
+Student14	Quick Sort
+Student14	Quick Sort
+Student14	Quick Sort
+Student15	Quick Sort
+Student15	Quick Sort
+Student15	Quick Sort
+Student15	Quick Sort
+Student16	Quick Sort
+Student16	Quick Sort
+Student16	Quick Sort
+Student16	Quick Sort
+Student17	Quick Sort
+Student18	Quick Sort
+Student18	Quick Sort
+Student19	Quick Sort
+Student19	Quick Sort
+Student19	Quick Sort
+Student19	Quick Sort
+Student20	Quick Sort
+Student21	Quick Sort
+Student21	Quick Sort
+Student21	Quick Sort
+Student21	Quick Sort
+Student22	Quick Sort
+Student22	Quick Sort
+Student23	Quick Sort
+Student23	Quick Sort
+Student23	Quick Sort
+Student23	Quick Sort
+Student24	Quick Sort
+Student24	Quick Sort
+Student24	Quick Sort
+Student24	Quick Sort
+Student27	Quick Sort
+Student28	Quick Sort
+Student28	Quick Sort
+Student29	Quick Sort
+Student29	Quick Sort
+Student29	Quick Sort
+Student29	Quick Sort
+Student30	Quick Sort
+Student30	Quick Sort
+Student31	Quick Sort
+Student31	Quick Sort
+Student31	Quick Sort
+Student32	Quick Sort
+Student32	Quick Sort
+Student33	Quick Sort
+Student33	Quick Sort
+Student33	Quick Sort
+Student35	Quick Sort
+Student36	Quick Sort
+Student36	Quick Sort
+Student38	Quick Sort
+Student38	Quick Sort
+Student38	Quick Sort
+Student38	Quick Sort
+Student39	Quick Sort
+Student39	Quick Sort
+Student39	Quick Sort
+Student40	Quick Sort
+Student40	Quick Sort
+Student1	Red-Black Trees
+Student1	Red-Black Trees
+Student2	Red-Black Trees
+Student3	Red-Black Trees
+Student3	Red-Black Trees
+Student3	Red-Black Trees
+Student4	Red-Black Trees
+Student5	Red-Black Trees
+Student5	Red-Black Trees
+Student5	Red-Black Trees
+Student5	Red-Black Trees
+Student6	Red-Black Trees
+Student6	Red-Black Trees
+Student6	Red-Black Trees
+Student6	Red-Black Trees
+Student7	Red-Black Trees
+Student7	Red-Black Trees
+Student8	Red-Black Trees
+Student8	Red-Black Trees
+Student10	Red-Black Trees
+Student10	Red-Black Trees
+Student10	Red-Black Trees
+Student10	Red-Black Trees
+Student12	Red-Black Trees
+Student12	Red-Black Trees
+Student12	Red-Black Trees
+Student13	Red-Black Trees
+Student14	Red-Black Trees
+Student15	Red-Black Trees
+Student15	Red-Black Trees
+Student16	Red-Black Trees
+Student16	Red-Black Trees
+Student16	Red-Black Trees
+Student17	Red-Black Trees
+Student17	Red-Black Trees
+Student17	Red-Black Trees
+Student17	Red-Black Trees
+Student17	Red-Black Trees
+Student18	Red-Black Trees
+Student19	Red-Black Trees
+Student19	Red-Black Trees
+Student19	Red-Black Trees
+Student19	Red-Black Trees
+Student21	Red-Black Trees
+Student21	Red-Black Trees
+Student21	Red-Black Trees
+Student22	Red-Black Trees
+Student22	Red-Black Trees
+Student22	Red-Black Trees
+Student23	Red-Black Trees
+Student23	Red-Black Trees
+Student24	Red-Black Trees
+Student26	Red-Black Trees
+Student26	Red-Black Trees
+Student27	Red-Black Trees
+Student27	Red-Black Trees
+Student28	Red-Black Trees
+Student29	Red-Black Trees
+Student30	Red-Black Trees
+Student30	Red-Black Trees
+Student30	Red-Black Trees
+Student33	Red-Black Trees
+Student33	Red-Black Trees
+Student33	Red-Black Trees
+Student34	Red-Black Trees
+Student35	Red-Black Trees
+Student35	Red-Black Trees
+Student36	Red-Black Trees
+Student36	Red-Black Trees
+Student37	Red-Black Trees
+Student37	Red-Black Trees
+Student37	Red-Black Trees
+Student37	Red-Black Trees
+Student37	Red-Black Trees
+Student38	Red-Black Trees
+Student38	Red-Black Trees
+Student39	Red-Black Trees
+Student40	Red-Black Trees
+Student1	Stacks
+Student1	Stacks
+Student3	Stacks
+Student3	Stacks
+Student3	Stacks
+Student3	Stacks
+Student4	Stacks
+Student4	Stacks
+Student5	Stacks
+Student5	Stacks
+Student5	Stacks
+Student6	Stacks
+Student8	Stacks
+Student10	Stacks
+Student10	Stacks
+Student11	Stacks
+Student11	Stacks
+Student11	Stacks
+Student12	Stacks
+Student13	Stacks
+Student13	Stacks
+Student14	Stacks
+Student14	Stacks
+Student14	Stacks
+Student14	Stacks
+Student15	Stacks
+Student15	Stacks
+Student16	Stacks
+Student16	Stacks
+Student17	Stacks
+Student17	Stacks
+Student17	Stacks
+Student19	Stacks
+Student19	Stacks
+Student20	Stacks
+Student20	Stacks
+Student20	Stacks
+Student21	Stacks
+Student22	Stacks
+Student22	Stacks
+Student23	Stacks
+Student23	Stacks
+Student24	Stacks
+Student25	Stacks
+Student28	Stacks
+Student28	Stacks
+Student28	Stacks
+Student28	Stacks
+Student29	Stacks
+Student29	Stacks
+Student30	Stacks
+Student30	Stacks
+Student30	Stacks
+Student32	Stacks
+Student32	Stacks
+Student33	Stacks
+Student33	Stacks
+Student34	Stacks
+Student35	Stacks
+Student35	Stacks
+Student36	Stacks
+Student36	Stacks
+Student37	Stacks
+Student38	Stacks
+Student38	Stacks
+Student39	Stacks
+Student39	Stacks
+Student39	Stacks
+Student40	Stacks
+Student40	Stacks
+Student1	Trees
+Student2	Trees
+Student2	Trees
+Student2	Trees
+Student2	Trees
+Student3	Trees
+Student3	Trees
+Student3	Trees
+Student4	Trees
+Student5	Trees
+Student6	Trees
+Student6	Trees
+Student7	Trees
+Student7	Trees
+Student7	Trees
+Student8	Trees
+Student9	Trees
+Student9	Trees
+Student9	Trees
+Student10	Trees
+Student11	Trees
+Student11	Trees
+Student11	Trees
+Student12	Trees
+Student12	Trees
+Student13	Trees
+Student14	Trees
+Student14	Trees
+Student15	Trees
+Student15	Trees
+Student16	Trees
+Student17	Trees
+Student18	Trees
+Student18	Trees
+Student18	Trees
+Student19	Trees
+Student19	Trees
+Student19	Trees
+Student20	Trees
+Student20	Trees
+Student21	Trees
+Student21	Trees
+Student21	Trees
+Student21	Trees
+Student22	Trees
+Student23	Trees
+Student23	Trees
+Student24	Trees
+Student24	Trees
+Student26	Trees
+Student27	Trees
+Student27	Trees
+Student27	Trees
+Student27	Trees
+Student28	Trees
+Student28	Trees
+Student28	Trees
+Student29	Trees
+Student29	Trees
+Student31	Trees
+Student31	Trees
+Student33	Trees
+Student33	Trees
+Student33	Trees
+Student33	Trees
+Student34	Trees
+Student35	Trees
+Student35	Trees
+Student35	Trees
+Student36	Trees
+Student36	Trees
+Student36	Trees
+Student37	Trees
+Student38	Trees
+Student38	Trees
+Student39	Trees
+Student39	Trees
+Student39	Trees
+

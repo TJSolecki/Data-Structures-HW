@@ -1,0 +1,21 @@
+Report for Student32
+You asked about the following topics in office hours each time you came:
+	1.) BSTs
+	2.) MAPS
+	3.) BSTs
+	4.) Quick Sort
+	5.) Stacks
+	6.) Quick Sort
+	7.) Heaps
+	8.) BSTs
+	9.) Queues
+	10.) BSTs
+	11.) Insertion Sort
+	12.) Stacks
+	13.) BSTs
+	14.) BSTs
+	15.) BSTs
+	16.) Queues
+	17.) B-Trees
+	18.) Heaps
+You came to office hours 18 time(s)

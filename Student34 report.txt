@@ -1,0 +1,12 @@
+Report for Student34
+You asked about the following topics in office hours each time you came:
+	1.) Insertion Sort
+	2.) Insertion Sort
+	3.) Trees
+	4.) Red-Black Trees
+	5.) Insertion Sort
+	6.) BSTs
+	7.) BSTs
+	8.) Stacks
+	9.) Heaps
+You came to office hours 9 time(s)

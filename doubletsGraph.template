@@ -1,0 +1,116 @@
+// FILE: graph.template (part of the namespace main_savitch_15)
+// TEMPLATE CLASS IMPLEMENTED: graph<Item> (See graph.h for documentation.)
+// This file is included in the header file and not compiled separately.
+// INVARIANT for the graph class:
+//   1. The number of vertices in the graph is stored in the member variable
+//      many_vertices.
+//   1. These vertices are numbered from 0 to many_vertices-1.
+//   2. edges is the adjacency matrix for the graph (with true in edges[i][j]
+//      to indicate an edge from vertex i to vertex j).
+//   3. For each i < many_vertices, labels[i] is the label of vertex i.
+
+#include <cassert>    // Provides assert
+#include <cstdlib>    // Provides size_t
+#include <set>        // Provides set
+#include <queue>
+#include <algorithm>
+#include <unordered_set>
+
+namespace main_savitch_15
+{
+
+    template <class Item>
+    void graph<Item>::add_edge(const Item& source, const Item& target)
+    // Library facilities used: cassert, cstdlib
+    {
+        list_head_insert(edges[get_Index(source)], target);
+    }
+
+    template <class Item>
+    void graph<Item>::add_vertex(const Item& label)
+    // Library facilities used: cassert, cstdlib
+    {
+        many_vertices++;
+        edges.push_back(new node<Item>(label));
+        labels.push_back(label);
+    }
+
+    template <class Item>
+    bool graph<Item>::is_edge(const Item& source, const Item& target) const
+    // Library facilities used: cassert, cstdlib
+    {
+        node<Item> * curr = edges[get_Index(source)];
+        while(curr != NULL)
+        {
+          if(curr->data() == target) return true;
+          curr = curr->link();
+        }
+        return false;
+    }
+
+    template <class Item>
+    std::set<Item> graph<Item>::neighbors(const Item& vertex) const
+    // Library facilities used: cassert, cstdlib, set
+    {
+        std::set<Item> answer;
+        int index;
+        for(int i = 0; i < many_vertices; i++)
+        {
+          if(edges[i]->data() == vertex) index = i;
+        }
+        node<Item> * curr = edges[index];
+        while(curr != NULL)
+        {
+          if(curr->data() != vertex) answer.insert(curr->data());
+          curr = curr->link();
+        }
+        return answer;
+    }
+
+
+
+    template <class Item>
+    std::vector<Item> graph<Item>::shortest_path(const Item& source, const Item& dest)
+    {
+      std::unordered_set<Item> marked;
+      Item prev[many_vertices];
+      prev[get_Index(source)] = "";
+      Item curr = source;
+      std::queue<Item> q;
+      q.push(source);
+      marked.insert(source);
+      while(!q.empty())
+      {
+        curr = q.front();
+        q.pop();
+        std::set<Item> neighbors_ = neighbors(curr);
+        //std::cout << "vertex = " << curr << " size = " << neighbors_.size() << std::endl;
+        for(Item i : neighbors_)
+        {
+          if(marked.find(i) == marked.end())
+          {
+            marked.insert(i);
+            q.push(i);
+            prev[get_Index(i)] = curr;
+            if(i == dest)
+            {
+              while(!q.empty())
+              {
+                q.pop();
+              }
+            }
+          }
+        }
+      }
+      curr = dest;
+
+      std::vector<Item> finalPath;
+      while(curr != "")
+      {
+        finalPath.push_back(curr);
+        curr = prev[get_Index(curr)];
+      }
+      std::reverse(finalPath.begin(), finalPath.end());
+      return finalPath;
+    }
+}

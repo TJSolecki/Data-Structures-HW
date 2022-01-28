@@ -1,0 +1,19 @@
+Report for Student37
+You asked about the following topics in office hours each time you came:
+	1.) Red-Black Trees
+	2.) B-Trees
+	3.) MAPS
+	4.) B-Trees
+	5.) Red-Black Trees
+	6.) B-Trees
+	7.) Red-Black Trees
+	8.) B-Trees
+	9.) Stacks
+	10.) Red-Black Trees
+	11.) B-Trees
+	12.) Trees
+	13.) BSTs
+	14.) B-Trees
+	15.) Red-Black Trees
+	16.) BSTs
+You came to office hours 16 time(s)

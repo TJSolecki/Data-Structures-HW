@@ -1,0 +1,21 @@
+Report for Student6
+You asked about the following topics in office hours each time you came:
+	1.) B-Trees
+	2.) Queues
+	3.) Trees
+	4.) Heaps
+	5.) MAPS
+	6.) Heaps
+	7.) Heaps
+	8.) Red-Black Trees
+	9.) Red-Black Trees
+	10.) Queues
+	11.) BSTs
+	12.) Queues
+	13.) Stacks
+	14.) B-Trees
+	15.) Quick Sort
+	16.) Red-Black Trees
+	17.) Trees
+	18.) Red-Black Trees
+You came to office hours 18 time(s)

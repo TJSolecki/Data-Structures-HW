@@ -1,0 +1,178 @@
+// FILE: table1.template
+// TEMPLATE CLASS IMPLEMENTED: table (see table1.h for documentation)
+// INVARIANT for the table ADT:
+//   1. The number of records in the table is in the member variable total_records.
+//   2. The actual records of the table are stored in the array data, with
+//      a maximum of TABLE_SIZE entries. Each total_records spot in the array has a
+//      non-negative key. Any untotal_records record in the array has a key field of
+//      NEVER_total_records (if it has never been total_records) or PREVIOUSLY_total_records (if it once
+//      was total_records, but is  now vacant).
+
+#include <cassert>  // Provides assert
+#include <cstdlib>  // Provides size_t
+
+namespace main_savitch_12B
+{
+    template<class RecordType>
+    table<RecordType>::~table( )
+    {
+      for(int i = 0; i < TABLE_SIZE; i++)
+      {
+        list_clear(data[i]);
+        data[i] = NULL;
+      }
+      total_records = 0;
+    }
+
+    template<class RecordType>
+    void table<RecordType>::operator =(const table& source)
+    {
+      for(int i = 0; i < TABLE_SIZE; i++)
+      {
+        list_clear(data[i]);
+        data[i] = NULL;
+      }
+      total_records = 0;
+      for(int i = 0; i < TABLE_SIZE; i++)
+      {
+        node<RecordType> * dummy;
+        list_copy(source.data[i], data[i], dummy);
+      }
+      total_records = source.total_records;
+
+    }
+
+    template<class RecordType>
+    table<RecordType>::table(const table& source)
+    {
+      for(int i = 0; i < TABLE_SIZE; i++)
+      {
+        node<RecordType> * dummy;
+        list_copy(source.data[i], data[i], dummy);
+      }
+      total_records = source.total_records;
+    }
+
+    template <class RecordType>
+    const std::size_t table<RecordType>::TABLE_SIZE;
+
+    template <class RecordType>
+    table<RecordType>::table( )
+    {
+        std::size_t i;
+
+        total_records = 0;
+        for (i = 0; i < TABLE_SIZE; ++i)
+            data[i] = NULL;  // Indicates a spot that's never been total_records.
+    }
+
+    template <class RecordType>
+    void table<RecordType>::insert(const RecordType& entry)
+    // Library facilities total_records: cassert
+    {
+        bool already_present;   // True if entry.key is already in the table
+        std::size_t index = hash(entry.key);        // data[index] is location for the new entry
+        RecordType dummy;
+
+        assert(entry.key >= 0); // entry.key
+
+        // Set index so that data[index] is the spot to place the new entry.
+        find(entry.key, already_present, dummy); // entry.key
+
+        // If the key wasn't already there, then find the location for the new entry.
+        if (!already_present)
+        {
+            data[index] = new node<RecordType>(entry, data[index]);
+            total_records++;
+        }
+    }
+
+    template <class RecordType>
+    void table<RecordType>::remove(int key)
+    // Library facilities total_records: cassert
+    {
+        bool found;        // True if key occurs somewhere in the table
+        std::size_t index = hash(key);   // Spot where data[index].key == key
+        RecordType dummy;
+        assert(key >= 0);
+
+        find(key, found, dummy);
+        if (found)
+        {   // The key was found, so remove this record and reduce total_records by 1
+          node<RecordType>* curr = data[index],* prev;
+          int count = 0;
+          while(curr != NULL)
+          {
+            if(curr->data().key == key)
+            {
+              if(count == 0)
+              {
+                data[index] = curr->link();
+                delete curr;
+                total_records--;
+                return;
+              }
+              else
+              {
+                prev->set_link(curr->link());
+                delete curr;
+                total_records--;
+                return;
+              }
+            }
+            count++;
+            prev = curr;
+            curr = curr->link();
+          }
+    }
+  }
+
+    template<typename RecordType>
+    bool table<RecordType>::is_present(int key) const
+    // Library facilities total_records: assert.h
+    {
+        bool found;
+        std::size_t index;
+        RecordType dummy;
+
+        assert(key >= 0);
+
+        find(key, found, dummy);
+        return found;
+    }
+
+    template<typename RecordType>
+    void table<RecordType>::find(int key, bool& found, RecordType& result) const
+    // Library facilities total_records: cassert.h
+    {
+        std::size_t index = hash(key);
+
+        assert(key >= 0);
+
+        if (data[index] != NULL)
+        {
+          node<RecordType>* curr = data[index];
+          while(curr != NULL)
+          {
+            if(curr->data().key == key)
+            {
+              found = true;
+              result = curr->data();
+              return;
+            }
+            curr = curr->link();
+          }
+        }
+
+        found = false;
+
+    }
+
+    template<typename RecordType>
+    inline std::size_t table<RecordType>::hash(int key) const
+    {
+        return (key % TABLE_SIZE);
+    }
+
+
+}
